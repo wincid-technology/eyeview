@@ -1,0 +1,75 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap'); */
+
+@import "tailwindcss";
+
+@import "primereact/resources/primereact.min.css";
+@import "primereact/resources/themes/saga-blue/theme.css";
+@import "primeicons/primeicons.css";
+
+
+/* body{
+  font-family: 'Raleway';
+} */
+
+
+.no-scrollbar::-webkit-scrollbar {
+  display: none !important;
+}
+
+.no-scrollbar {
+  -ms-overflow-style: none; /* IE / Edge */
+  scrollbar-width: none; /* Firefox */
+}
+
+button{
+  cursor: pointer;
+}
+
+.aboutBanner{
+  background-image: url('/img/about.png');
+  background-size: cover;
+  background-position: center;
+  background-color: black;
+}
+.bookhubBanner{
+  background-image: url('/img/bookhub.png');
+  background-size: cover;
+  background-position: center;
+  background-color: black;
+}
+.authorsBanner{
+  background-image: url('/img/authors.png');
+  background-size: cover;
+  background-position: center;
+  background-color: black;
+}
+.servicesBanner{
+  background-image: url('/img/services.png');
+  background-size: cover;
+  background-position: center;
+  background-color: black;
+}
+.eventsBanner{
+  background-image: url('/img/events.png');
+  background-size: cover;
+  background-position: top;
+  background-color: black;
+}
+.supportBanner{
+  background-image: url('/img/support.png');
+  background-size: cover;
+  background-position: center;
+  background-color: black;
+}
+.galleryBanner{
+  background-image: url('/img/gallery.png');
+  background-size: cover;
+  background-position: top;
+  background-color: black;
+}
+.heroBg{
+  background-image: url('/img/h.jpeg');
+  background-size: cover;
+  background-position: bottom;
+  background-color: black;
+}

@@ -94,7 +94,7 @@ const BookStore = () => {
           {/* Category Filter */}
           <div className="flex gap-2 overflow-x-auto no-scrollbar">
             <h1 className="font-bold">Category: </h1>
-            <FaFilter className="hidden md:block mt-3 text-[#0f0640]" />
+            <FaFilter className="hidden md:block mt-3 text-[#122B76]" />
 
             {categories.map((cat) => (
 
@@ -121,7 +121,7 @@ const BookStore = () => {
                 key={lang}
                 onClick={() => setActiveLanguage(lang)}
                 className={`px-5 py-2 rounded-full text-xs font-bold whitespace-nowrap transition ${activeLanguage === lang
-                    ? "bg-[#0f0640] text-white"
+                    ? "bg-[#122B76] text-white"
                     : "bg-gray-100 text-gray-600"
                   }`}
               >
@@ -175,7 +175,7 @@ const BookStore = () => {
                         By {book.author}
                       </p>
 
-                      <h3 className="font-bold text-[#0f0640] text-xl mb-1 line-clamp-1">
+                      <h3 className="font-bold text-[#122B76] text-xl mb-1 line-clamp-1">
                         {book.title}
                       </h3>
 
@@ -185,7 +185,7 @@ const BookStore = () => {
 
                       <div className="flex items-center justify-between">
 
-                        <span className="font-semibold text-[#0f0640]">
+                        <span className="font-semibold text-[#122B76]">
                           ₹{book.price}
                         </span>
 
@@ -209,7 +209,7 @@ const BookStore = () => {
 
             <div className="text-center py-20">
 
-              <h3 className="text-2xl font-bold text-[#0f0640]">
+              <h3 className="text-2xl font-bold text-[#122B76]">
                 No books found
               </h3>
 

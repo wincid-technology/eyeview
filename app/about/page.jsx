@@ -34,7 +34,7 @@ const AboutPage = () => {
       desc: "Strict quality assurance in editing and production to ensure an exceptional reading journey every time.",
       icon: <FaShieldAlt />,
       color: "border-black",
-      iconColor: "text-black"
+      iconColor: "text-[#122B76]"
     },
     {
       title: "Strategic Growth",
@@ -55,7 +55,7 @@ const AboutPage = () => {
       desc: "Expanding the boundaries of literature by connecting local heritage with international markets.",
       icon: <FaGlobe />,
       color: "border-black",
-      iconColor: "text-black"
+      iconColor: "text-[#122B76]"
     }
   ];
 
@@ -77,7 +77,7 @@ const AboutPage = () => {
       {/* NEW Who We Are Section (Heading & Text Content) */}
       <section className="py-16 px-6 lg:px-12 bg-white">
         <div className="container mx-auto max-w-4xl text-center">
-          <h2 className="text-black text-4xl md:text-5xl font-bold mb-8">
+          <h2 className="text-[#122B76] text-4xl md:text-5xl font-bold mb-8">
             The Power of Imagination
           </h2>
           <div className="space-y-6 text-gray-700 leading-relaxed">
@@ -98,8 +98,8 @@ const AboutPage = () => {
       <section className="bg-gray-100 py-16 px-6 lg:px-12">
         <div className="container mx-auto max-w-7xl">
           <div className="text-center mb-16">
-            <h2 className="text-black text-3xl md:text-4xl font-bold">Our Core <span className="text-[#C52B28]">Pillars</span></h2>
-            <p className="text-gray-500 mt-4">Defining the standards of modern publication and consultancy.</p>
+            <h2 className="text-[#122B76] text-3xl md:text-4xl font-bold">Our Core <span className="text-[#C52B28]">Pillars</span></h2>
+            <p className="text-gray-500 mt-4">Defining the standards of modern publication an d consultancy.</p>
           </div>
           
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
@@ -111,7 +111,7 @@ const AboutPage = () => {
                 <div className={`${feature.iconColor} text-4xl flex justify-center mb-6 transition-transform group-hover:scale-110 duration-300`}>
                   {feature.icon}
                 </div>
-                <h3 className="text-2xl font-bold text-black mb-4">
+                <h3 className="text-2xl font-bold text-[#122B76] mb-4">
                   {feature.title}
                 </h3>
                 <p className="text-gray-500 text-sm leading-relaxed">
@@ -126,27 +126,27 @@ const AboutPage = () => {
       {/* Footer Focus / Values */}
       <section className="py-24 bg-[#EF8224]/10 border-t border-gray-300">
         <div className="container mx-auto max-w-7xl text-center">
-            <h2 className="text-black text-2xl font-bold mb-16">Why Global Authors Trust Us</h2>
+            <h2 className="text-[#122B76] text-2xl font-bold mb-16">Why Global Authors Trust Us</h2>
             <div className="grid md:grid-cols-3 divide-x divide-gray-300">
             <div className="group px-12">
                 <div className="w-20 h-20 bg-gray-50 shadow-lg rounded-2xl flex items-center justify-center mx-auto mb-6 group-hover:bg-[#C52B28] transition-colors duration-300">
                     <FaUsers className="text-3xl text-[#C52B28] group-hover:text-white" />
                 </div>
-                <h4 className="font-bold text-black text-xl">Community Focus</h4>
+                <h4 className="font-bold text-[#122B76] text-xl">Community Focus</h4>
                 <p className="text-gray-500 text-base mt-2 px-4">Building lasting bonds between creators and their audience.</p>
             </div>
             <div className="group px-12">
                 <div className="w-20 h-20 bg-gray-50 shadow-lg rounded-2xl flex items-center justify-center mx-auto mb-6 group-hover:bg-[#EF8224] transition-colors duration-300">
                     <FaGlobe className="text-3xl text-[#EF8224] group-hover:text-white" />
                 </div>
-                <h4 className="font-bold text-black text-xl">Heritage Hub</h4>
+                <h4 className="font-bold text-[#122B76] text-xl">Heritage Hub</h4>
                 <p className="text-gray-500 text-base mt-2 px-4">Preserving the roots while reaching for global branches.</p>
             </div>
             <div className="group px-12">
-                <div className="w-20 h-20 bg-gray-50 shadow-lg rounded-2xl flex items-center justify-center mx-auto mb-6 group-hover:bg-black transition-colors duration-300">
-                    <FaCheckCircle className="text-3xl text-black group-hover:text-white" />
+                <div className="w-20 h-20 bg-gray-50 shadow-lg rounded-2xl flex items-center justify-center mx-auto mb-6 group-hover:bg-[#122B76] transition-colors duration-300">
+                    <FaCheckCircle className="text-3xl text-[#122B76] group-hover:text-white" />
                 </div>
-                <h4 className="font-bold text-black text-xl">Excellence</h4>
+                <h4 className="font-bold text-[#122B76] text-xl">Excellence</h4>
                 <p className="text-gray-500 text-base mt-2 px-4">A standard of perfection in every page we publish.</p>
             </div>
             </div>

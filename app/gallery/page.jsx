@@ -62,7 +62,7 @@ export default function Gallery() {
 
         {/* HEADER */}
         <div className="text-center mb-16 flex justify-center flex-col items-center">
-          <h2 className="text-black text-4xl  md:text-5xl  font-bold mb-2">
+          <h2 className="text-[#122B76] text-4xl  md:text-5xl  font-bold mb-2">
          
             A Flashback of Our Memorable Moments
           </h2>
@@ -97,12 +97,12 @@ export default function Gallery() {
 
         {/* MODAL */}
         {selectedIndex !== null && (
-          <div className="fixed inset-0 z-50 bg-black/90 flex items-center justify-center p-4">
+          <div className="fixed inset-0 z-50 bg-[#122B76]/90 flex items-center justify-center p-4">
 
             {/* Close Button */}
             <button
               onClick={closeModal}
-              className="absolute top-6 right-6 text-white bg-black/50 p-3 rounded-full hover:bg-red-600 transition"
+              className="absolute top-6 right-6 text-white bg-[#122B76]/50 p-3 rounded-full hover:bg-red-600 transition"
             >
               <X size={20} />
             </button>
@@ -110,7 +110,7 @@ export default function Gallery() {
             {/* Prev Button */}
             <button
               onClick={prevImage}
-              className="absolute left-6 text-white bg-black/50 p-3 rounded-full hover:bg-[#C52B28] transition"
+              className="absolute left-6 text-white bg-[#122B76]/50 p-3 rounded-full hover:bg-[#C52B28] transition"
             >
               <ChevronLeft size={24} />
             </button>
@@ -129,7 +129,7 @@ export default function Gallery() {
             {/* Next Button */}
             <button
               onClick={nextImage}
-              className="absolute right-6 text-white bg-black/50 p-3 rounded-full hover:bg-[#C52B28] transition"
+              className="absolute right-6 text-white bg-[#122B76]/50 p-3 rounded-full hover:bg-[#C52B28] transition"
             >
               <ChevronRight size={24} />
             </button>
@@ -138,7 +138,7 @@ export default function Gallery() {
             <a
               href={images[selectedIndex]}
               download
-              className="absolute bottom-8 bg-[#C52B28] text-white px-6 py-3 rounded-tl-xl rounded-br-xl font-semibold flex items-center gap-2 hover:bg-[#0f0640] transition"
+              className="absolute bottom-8 bg-[#C52B28] text-white px-6 py-3 rounded-tl-xl rounded-br-xl font-semibold flex items-center gap-2 hover:bg-[#122B76] transition"
             >
               <Download size={18} />
               Download Image

@@ -42,8 +42,8 @@ const PhotographySection = () => {
             <TextEffect per='char' preset='fade' className="mt-2 text-4xl md:text-5xl font-bold text-white">
               Eyeview Photography
             </TextEffect>
-            <span className="text-black  italic font-bold text-3xl md:text-4xl">Contest 2025</span>
-            <p className="mt-4 text-black font-bold text-lg">
+            <span className="text-[#122B76]  italic font-bold text-3xl md:text-4xl">Contest 2025</span>
+            <p className="mt-4 text-[#122B76] font-bold text-lg">
               Showcasing the <span className="text-white font-medium">Beauty of Bharat</span> through your lens.
             </p>
           </div>
@@ -76,7 +76,7 @@ const PhotographySection = () => {
 
             {/* Video Showcase Card */}
             <div className=" grid grid-cols-2 gap-10  cursor-pointer overflow-hidden">
-              <div className="relative bg-gray-900  border-white/10 rounded-2xl overflow-hidden ">
+              <div className="relative bg-[#122B76]  border-white/10 rounded-2xl overflow-hidden ">
 
                 <Image
                   src="/img/pse.png"
@@ -87,7 +87,7 @@ const PhotographySection = () => {
                 />
 
                 {/* No Entry Fee Overlay */}
-                <div className="absolute top-6 right-6 bg-yellow-400 text-black px-4 py-1 rounded-full text-xs font-black uppercase shadow-lg">
+                <div className="absolute top-6 right-6 bg-yellow-400 text-[#122B76] px-4 py-1 rounded-full text-xs font-black uppercase shadow-lg">
                   No Entry Fee
                 </div>
               </div>
@@ -117,7 +117,7 @@ const PhotographySection = () => {
             </div>
 
             {/* Call to Action */}
-            <button className="w-2/6 mx-auto bg-black hover:bg-white hover:text-black transition-all duration-300 rounded-tl-xl rounded-br-xl text-white py-5  font-bold flex items-center justify-center gap-3 transition-all shadow-xl shadow-red-900/20 group">
+            <button className="w-2/6 mx-auto bg-[#122B76] hover:bg-white hover:text-[#122B76] transition-all duration-300 rounded-tl-xl rounded-br-xl text-white py-5  font-bold flex items-center justify-center gap-3 transition-all shadow-xl shadow-red-900/20 group">
               <svg className="w-5 h-5 animate-pulse" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
               </svg>

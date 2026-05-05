@@ -46,7 +46,7 @@ const router = useRouter();
 
         {/* HEADER */}
         <div className="mt-16 ">
-          <h1 className="text-black text-4xl md:text-5xl font-bold mb-8 text-center">
+          <h1 className="text-[#122B76] text-4xl md:text-5xl font-bold mb-8 text-center">
             Legacy of Knowledge
           </h1>
           <p className="text-gray-700 text-center mt-2">
@@ -76,7 +76,7 @@ const router = useRouter();
               </div>
 
               <div className="pt-6 flex flex-col justify-between">
-                <h3 className="text-xl flex-1 font-semibold text-gray-900 line-clamp-1">
+                <h3 className="text-xl flex-1 font-semibold text-[#122B76] line-clamp-1">
                   {author.name}
                 </h3>
                 <p className="text-sm text-gray-500 mt-1">
@@ -95,13 +95,13 @@ const router = useRouter();
 
       {/* MODAL */}
       {selectedAuthor && (
-        <div className="fixed inset-0 z-50 bg-black/60 backdrop-blur-md flex items-center justify-center p-4">
+        <div className="fixed inset-0 z-50 bg-[#122B76]/60 backdrop-blur-md flex items-center justify-center p-4">
           <div className="bg-white w-full max-w-6xl max-h-[85vh] rounded-2xl shadow-2xl overflow-hidden flex flex-col md:flex-row relative">
 
             {/* CLOSE */}
             <button
               onClick={() => setSelectedAuthor(null)}
-              className="absolute top-4 right-4 bg-gray-900 text-white p-2 rounded-full hover:bg-[#C52B28]"
+              className="absolute top-4 right-4 bg-[#122B76] text-white p-2 rounded-full hover:bg-[#C52B28]"
             >
               <FaTimes />
             </button>
@@ -116,7 +116,7 @@ const router = useRouter();
                   className="object-cover"
                 />
               </div>
-              <h2 className="text-2xl font-semibold text-gray-900">
+              <h2 className="text-2xl font-semibold text-[#122B76]">
                 {selectedAuthor.name}
               </h2>
               <p className="text-sm text-gray-500 mt-2">
@@ -204,13 +204,13 @@ const router = useRouter();
       )}
 
       {selectedBook && (
-        <div className="fixed inset-0 z-50 bg-black/70 backdrop-blur-md flex items-center justify-center p-4">
+        <div className="fixed inset-0 z-50 bg-[#122B76]/70 backdrop-blur-md flex items-center justify-center p-4">
           <div className="bg-white max-w-5xl w-full rounded-2xl overflow-hidden shadow-2xl relative flex flex-col md:flex-row">
 
             {/* CLOSE */}
             <button
               onClick={() => setSelectedBook(null)}
-              className="absolute top-4 right-4 bg-black text-white p-2 rounded-full z-10"
+              className="absolute top-4 right-4 bg-[#122B76] text-white p-2 rounded-full z-10"
             >
               <FaTimes />
             </button>

@@ -9,7 +9,7 @@ const EventSection = () => {
         {/* Section Header */}
         <div className="mb-16 text-center">
           <span className="text-[#c23333] font-semibold tracking-widest uppercase text-sm">Eye View Enterprises Presents</span>
-          <h2 className="mt-2 text-4xl md:text-5xl  font-bold text-gray-900">Pentastic Women</h2>
+          <h2 className="mt-2 text-4xl md:text-5xl  font-bold text-[#122B76]">Pentastic Women</h2>
           <div className="mt-4 flex justify-center">
             <div className="h-1 w-24 bg-[#c23333] rounded-full"></div>
           </div>
@@ -81,7 +81,7 @@ const EventSection = () => {
 
             {/* CTA Button */}
             <div className="pt-4 flex flex-col sm:flex-row gap-4">
-              <button className="bg-[#c23333] hover:bg-black duration-300 text-white px-8 py-4 rounded-tl-xl rounded-br-xl font-bold transition-all shadow-lg hover:shadow-red-200 uppercase tracking-wider text-sm">
+              <button className="bg-[#c23333] hover:bg-[#122B76] duration-300 text-white px-8 py-4 rounded-tl-xl rounded-br-xl font-bold transition-all shadow-lg hover:shadow-red-200 uppercase tracking-wider text-sm">
                 Register Now
               </button>
               <button className="border-2 border-gray-200 hover:border-[#c23333] text-gray-700 px-8 py-4 rounded-tl-xl rounded-br-xl font-bold transition-all uppercase tracking-wider text-sm">

@@ -62,7 +62,7 @@ const BookStore = () => {
             Explore Minds With
           </span>
           <h1 className="text-white text-5xl md:text-8xl font-extrabold">
-            Visionary Thoughts
+            E-Visionary Thoughts
           </h1>
         </div>
       </section>
@@ -85,7 +85,7 @@ const BookStore = () => {
           {/* Category Filter */}
           <div className="flex gap-2 overflow-x-auto no-scrollbar items-center">
             <h1 className="font-bold">Category:</h1>
-            <FaFilter className="hidden md:block text-[#0f0640]" />
+            <FaFilter className="hidden md:block text-[#122B76]" />
 
             {categories.map((cat) => (
               <button
@@ -112,7 +112,7 @@ const BookStore = () => {
                 onClick={() => setActiveLanguage(lang)}
                 className={`px-5 py-2 rounded-full text-xs font-bold whitespace-nowrap transition ${
                   activeLanguage === lang
-                    ? "bg-[#0f0640] text-white"
+                    ? "bg-[#122B76] text-white"
                     : "bg-gray-100 text-gray-600"
                 }`}
               >
@@ -151,7 +151,7 @@ const BookStore = () => {
                         By {book.author}
                       </p>
 
-                      <h3 className="font-bold text-[#0f0640] text-xl mb-1 line-clamp-1">
+                      <h3 className="font-bold text-[#122B76] text-xl mb-1 line-clamp-1">
                         {book.title}
                       </h3>
 
@@ -160,7 +160,7 @@ const BookStore = () => {
                       </p>
 
                       <div className="flex items-center justify-between">
-                        <span className="font-semibold text-[#0f0640]">
+                        <span className="font-semibold text-[#122B76]">
                           ₹{book.price ?? "Free"}
                         </span>
 
@@ -175,7 +175,7 @@ const BookStore = () => {
             </div>
           ) : (
             <div className="text-center py-20">
-              <h3 className="text-2xl font-bold text-[#0f0640]">
+              <h3 className="text-2xl font-bold text-[#122B76]">
                 No books found
               </h3>
               <p className="text-gray-500">

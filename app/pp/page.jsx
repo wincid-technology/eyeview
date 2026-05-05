@@ -5,7 +5,7 @@ const PrivacyPolicy = () => {
   return (
     <main className="bg-gray-100 min-h-screen">
       {/* Header Section */}
-      <section className="bg-[#0f0640] py-20 px-6 text-center">
+      <section className="bg-[#122B76] py-20 px-6 text-center">
         <div className="container mx-auto max-w-4xl">
           <LuShieldCheck className="text-[#C52B28] w-16 h-16 mx-auto mb-6" />
           <h1 className="text-white text-4xl md:text-5xl font-extrabold mb-4">Privacy Policy</h1>
@@ -30,7 +30,7 @@ const PrivacyPolicy = () => {
                   </div>
                 </div>
                 <div>
-                  <h2 className="text-2xl font-bold text-[#0f0640] mb-4">1. Information We Collect</h2>
+                  <h2 className="text-2xl font-bold text-[#122B76] mb-4">1. Information We Collect</h2>
                   <p className="text-gray-600 mb-4">
                     When you engage with our "Book Hub" or register for events like "Riddhi Siddhi," we may collect:
                   </p>
@@ -50,7 +50,7 @@ const PrivacyPolicy = () => {
                   </div>
                 </div>
                 <div>
-                  <h2 className="text-2xl font-bold text-[#0f0640] mb-4">2. How We Use Your Data</h2>
+                  <h2 className="text-2xl font-bold text-[#122B76] mb-4">2. How We Use Your Data</h2>
                   <p className="text-gray-600">
                     Your data helps us provide a seamless experience, including:
                   </p>
@@ -70,7 +70,7 @@ const PrivacyPolicy = () => {
                   </div>
                 </div>
                 <div>
-                  <h2 className="text-2xl font-bold text-[#0f0640] mb-4">3. Data Security</h2>
+                  <h2 className="text-2xl font-bold text-[#122B76] mb-4">3. Data Security</h2>
                   <p className="text-gray-600 leading-relaxed">
                     We implement industry-standard security measures to ensure your data remains confidential. We do not sell or rent your personal information to third parties. Your trust is our "Power of Simplicity".
                   </p>
@@ -80,8 +80,8 @@ const PrivacyPolicy = () => {
               {/* 4. Contact Us */}
               <div className="bg-gray-50 p-8 rounded-3xl border-l-8 border-[#C52B28] mt-16">
                 <div className="flex items-center gap-4 mb-4">
-                  <LuFileText className="text-[#0f0640]" size={24} />
-                  <h3 className="text-xl font-bold text-[#0f0640]">Questions Regarding Privacy?</h3>
+                  <LuFileText className="text-[#122B76]" size={24} />
+                  <h3 className="text-xl font-bold text-[#122B76]">Questions Regarding Privacy?</h3>
                 </div>
                 <p className="text-gray-600 mb-6 text-sm">
                   If you have concerns about your data, reach out to our support team directly.
@@ -93,7 +93,7 @@ const PrivacyPolicy = () => {
                   </div>
                   <div>
                     <p className="text-xs font-bold text-gray-400 uppercase tracking-widest">Call Us</p>
-                    <p className="text-[#0f0640] font-bold">+91 9001112151</p>
+                    <p className="text-[#122B76] font-bold">+91 9001112151</p>
                   </div>
                 </div>
               </div>

@@ -26,7 +26,7 @@ const AboutSection = () => {
             <div className="mb-6 inline-block rounded-full bg-red-50 px-4 py-1 text-sm font-semibold text-[#c23333]">
               About Eye View Enterprises
             </div>
-            <TextEffect per='char' preset='fade' className="mb-6 text-4xl md:text-5xl font-bold text-gray-900 lg:leading-tight">
+            <TextEffect per='char' preset='fade' className="mb-6 text-4xl md:text-5xl font-bold text-[#122B76] lg:leading-tight">
               Bridging the Gap Between Vision and Publication.
             </TextEffect>
             <p className="mb-8 text-lg leading-relaxed text-gray-600">
@@ -42,7 +42,7 @@ const AboutSection = () => {
                   <svg className="h-4 w-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="3" d="M5 13l4 4L19 7"></path></svg>
                 </div>
                 <div>
-                  <h4 className="font-bold text-gray-900">Expert Consultancy</h4>
+                  <h4 className="font-bold text-[#122B76]">Expert Consultancy</h4>
                   <p className="text-sm text-gray-500">Guidance from industry veterans.</p>
                 </div>
               </div>
@@ -51,13 +51,13 @@ const AboutSection = () => {
                   <svg className="h-4 w-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="3" d="M5 13l4 4L19 7"></path></svg>
                 </div>
                 <div>
-                  <h4 className="font-bold text-gray-900">Global Reach</h4>
+                  <h4 className="font-bold text-[#122B76]">Global Reach</h4>
                   <p className="text-sm text-gray-500">E-books and physical distribution.</p>
                 </div>
               </div>
             </div>
 
-            <button className="mt-10 bg-gray-900 px-8 py-3 rounded-tl-xl rounded-br-xl font-medium text-white transition-all hover:bg-[#c23333] hover:shadow-lg">
+            <button className="mt-10 bg-[#122B76] px-8 py-3 rounded-tl-xl rounded-br-xl font-medium text-white transition-all hover:bg-[#c23333] hover:shadow-lg">
               <Link href="/about" className="flex items-center gap-2">
                 Learn More Our Story
               </Link>

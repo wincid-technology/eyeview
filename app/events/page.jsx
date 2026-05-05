@@ -76,7 +76,7 @@ export default function EventsPage() {
         {/* Events Grid */}
         <section className="py-16 px-6 md:px-20">
           <div className="mt-5 mb-16">
-          <h1 className="text-black text-4xl md:text-5xl font-bold mb-8 text-center">
+          <h1 className="text-[#122B76] text-4xl md:text-5xl font-bold mb-8 text-center">
             Historical Events
           </h1>
           <p className="text-gray-700 text-center mt-2">
@@ -127,14 +127,14 @@ export default function EventsPage() {
 
       {/* MODAL */}
       {selectedEvent && (
-        <div className="fixed inset-0 z-50 flex items-center justify-center bg-black/70 backdrop-blur-sm p-4">
+        <div className="fixed inset-0 z-50 flex items-center justify-center bg-[#122B76]/70 backdrop-blur-sm p-4">
 
           <div className="bg-white w-full max-w-3xl rounded-3xl overflow-hidden shadow-2xl relative animate-in fade-in duration-300">
 
             {/* Close Button */}
             <button
               onClick={() => setSelectedEvent(null)}
-              className="absolute top-4 right-4 bg-black text-white p-2 rounded-full hover:bg-orange-600 transition"
+              className="absolute top-4 right-4 bg-[#122B76] text-white p-2 rounded-full hover:bg-orange-600 transition"
             >
               <X size={18} />
             </button>

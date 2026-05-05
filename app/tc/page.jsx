@@ -11,7 +11,7 @@ const TermsAndConditions = () => {
   return (
     <main className="bg-gray-100 min-h-screen">
       {/* Hero Header */}
-      <section className="bg-[#0f0640] py-20 px-6 text-center">
+      <section className="bg-[#122B76] py-20 px-6 text-center">
         <div className="container mx-auto max-w-7xl">
           <div className="inline-block p-3 bg-white/10 rounded-2xl mb-6">
             <HiOutlineScale className="text-[#C52B28] w-12 h-12" />
@@ -46,7 +46,7 @@ const TermsAndConditions = () => {
             {/* 1. Use of Services */}
             <div className="relative pl-8 border-l-2 border-gray-100">
               <div className="absolute -left-[9px] top-0 w-4 h-4 rounded-full bg-[#C52B28]" />
-              <h2 className="text-2xl font-bold text-[#0f0640] mb-6 flex items-center gap-3">
+              <h2 className="text-2xl font-bold text-[#122B76] mb-6 flex items-center gap-3">
                 <HiOutlineDocumentText className="text-[#C52B28]" />
                 1. Use of Services
               </h2>
@@ -66,8 +66,8 @@ const TermsAndConditions = () => {
 
             {/* 2. Intellectual Property */}
             <div className="relative pl-8 border-l-2 border-gray-100">
-              <div className="absolute -left-[9px] top-0 w-4 h-4 rounded-full bg-[#0f0640]" />
-              <h2 className="text-2xl font-bold text-[#0f0640] mb-6 flex items-center gap-3">
+              <div className="absolute -left-[9px] top-0 w-4 h-4 rounded-full bg-[#122B76]" />
+              <h2 className="text-2xl font-bold text-[#122B76] mb-6 flex items-center gap-3">
                 <HiOutlineScale className="text-[#C52B28]" />
                 2. Intellectual Property
               </h2>
@@ -81,7 +81,7 @@ const TermsAndConditions = () => {
             {/* 3. User Submissions */}
             <div className="relative pl-8 border-l-2 border-gray-100">
               <div className="absolute -left-[9px] top-0 w-4 h-4 rounded-full bg-[#EF8224]" />
-              <h2 className="text-2xl font-bold text-[#0f0640] mb-6 flex items-center gap-3">
+              <h2 className="text-2xl font-bold text-[#122B76] mb-6 flex items-center gap-3">
                 <HiOutlineQuestionMarkCircle className="text-[#C52B28]" />
                 3. User Submissions
               </h2>
@@ -93,7 +93,7 @@ const TermsAndConditions = () => {
             </div>
 
             {/* 4. Limitation of Liability */}
-            <div className="bg-[#0f0640] text-white p-10 rounded-[2rem] shadow-xl">
+            <div className="bg-[#122B76] text-white p-10 rounded-[2rem] shadow-xl">
               <h2 className="text-2xl font-bold mb-6 text-[#C52B28]">
                 4. Limitation of Liability
               </h2>

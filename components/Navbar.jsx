@@ -28,7 +28,7 @@ export default function Header() {
             href="https://wa.me/919650393312"
             target="_blank"
             rel="noopener noreferrer"
-            className="flex items-center gap-2 text-[#0f0640] font-bold hover:underline"
+            className="flex items-center gap-2 text-[#122B76] font-bold hover:underline"
           >
             <FaWhatsapp className="text-2xl" />
             <span className="hidden lg:flex">+91 96503 93312</span>
@@ -64,12 +64,12 @@ export default function Header() {
             onClick={() => setMenuOpen(true)}
             className="lg:hidden cursor-pointer"
           >
-            <HiOutlineMenuAlt4 className="size-7 text-[#0f0640]" />
+            <HiOutlineMenuAlt4 className="size-7 text-[#122B76]" />
           </button>
         </section>
 
         {/* Desktop Nav */}
-        <nav className="hidden bg-black lg:flex justify-center gap-10 py-3">
+        <nav className="hidden bg-[#122B76] lg:flex justify-center gap-10 py-3">
           {navLinks.map((item) => {
             const isActive =
               pathname === item.href ||
@@ -95,7 +95,7 @@ export default function Header() {
       {/* Overlay */}
       <div
         onClick={() => setMenuOpen(false)}
-        className={`fixed inset-0 bg-black/40 z-[5000] transition-opacity duration-300 ${menuOpen ? "opacity-100 visible" : "opacity-0 invisible"
+        className={`fixed inset-0 bg-[#122B76]/40 z-[5000] transition-opacity duration-300 ${menuOpen ? "opacity-100 visible" : "opacity-0 invisible"
           }`}
       />
 
@@ -147,7 +147,7 @@ export default function Header() {
         </ul>
         <div className="lg:hidden flex">
           <button
-            className="bg-[#0f0640] hover:bg-[#0f0640df] text-white m-0 flex items-center gap-2 rounded-tl-xl rounded-br-xl py-2 px-6 transition"
+            className="bg-[#122B76] hover:bg-[#0f0640df] text-white m-0 flex items-center gap-2 rounded-tl-xl rounded-br-xl py-2 px-6 transition"
           >
             <FaUser className="text-sm" />
             Login

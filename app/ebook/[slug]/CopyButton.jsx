@@ -60,7 +60,7 @@ export default function CopyButton() {
     <MdContentCopy
       onClick={handleCopy}
       title="Copy Link"
-      className="text-gray-500 hover:text-black duration-200 transition-all text-2xl cursor-pointer"
+      className="text-gray-500 hover:text-[#122B76] duration-200 transition-all text-2xl cursor-pointer"
     />
   );
 }
